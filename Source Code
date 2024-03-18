@@ -6,6 +6,7 @@ public class Assignment3 {
     String user = "postgres";
     String password = "admin";
 
+    //Retrieves and displays all records from the students table.
     public void getAllStudents() {
         try {
             Class.forName("org.postgresql.Driver");
@@ -42,6 +43,7 @@ public class Assignment3 {
 
     }
 
+    //Inserts a new student record into the students table.
     public void addStudent(String first_name,String last_name,String email, Date enrollment_date){
         try {
             Class.forName("org.postgresql.Driver");
@@ -70,6 +72,7 @@ public class Assignment3 {
         }
     }
 
+    //Updates the email address for a student with the specified student_id.
     public void updateStudentEmail(int student_id, String new_email){
         try {
             //making the connection
@@ -96,6 +99,7 @@ public class Assignment3 {
         }
     }
 
+    //Deletes the record of the student with the specified student_id.
     public void deleteStudent(int student_id){
         try {
             //making the connection
