@@ -2,11 +2,11 @@
 
 Steps to compile and run the application:
 
-1- You need to download the zip file and put it in your Desktop.
-2- Extract the file inside to Desktop.
-3- You need to open that file in IntelliJ as a project.
-4- You can go to the main function and uncomment which function that you want to use.
-5- At the end run the program with the green play button at the top right side of IntelliJ.
+1- First, you need to download IntelliJ to your computer.
+2- Once you download IntelliJ you need to create a new project.
+3- You need to use Maven, choose Maven and click next.
+4- You need to give the name of the file "3005Assignment3".
+5- After creating the project you need to declare 
 
 The Link of Demonstration Video:
 
