@@ -13,7 +13,7 @@ Steps to compile and run the application:
 9- Go back to the source code and if necesarry change the username and password.
 10- Keep the pgAdmin4 runinng on background.
 11- You can go to the main function and uncomment which function that you want to use.
-12- To run the program you can press the run button on IntelliJ
+12- To run the program you can press the run button on IntelliJ.
 
 The Link of Demonstration Video:
 
